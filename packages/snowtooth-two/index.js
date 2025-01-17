@@ -1,4 +1,4 @@
-function calculateHikingTime(trailLength, avgSpeed) {
+export function calculateHikingTime(trailLength, avgSpeed) {
   return Math.round(trailLength / avgSpeed);
 }
 

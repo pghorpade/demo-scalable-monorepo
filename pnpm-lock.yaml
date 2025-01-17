@@ -1,0 +1,17 @@
+lockfileVersion: '9.0'
+
+settings:
+  autoInstallPeers: true
+  excludeLinksFromLockfile: false
+
+importers:
+
+  .: {}
+
+  packages/snowtooth-one:
+    dependencies:
+      '@snowtooth-mountain/snowtooth-two':
+        specifier: workspace:*
+        version: link:../snowtooth-two
+
+  packages/snowtooth-two: {}

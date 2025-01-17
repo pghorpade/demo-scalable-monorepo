@@ -14,4 +14,8 @@ importers:
         specifier: workspace:*
         version: link:../snowtooth-two
 
-  packages/snowtooth-two: {}
+  packages/snowtooth-two:
+    dependencies:
+      '@snowtooth-mountain/snowtooth-one':
+        specifier: workspace:*
+        version: link:../snowtooth-one

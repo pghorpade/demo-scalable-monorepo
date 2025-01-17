@@ -1,0 +1,15 @@
+{
+  "name": "snowtooth-mountain",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "snowtooth-one": "pnpm -r --filter @snowtooth-mountain/snowtooth-one start",
+    "snowtooth-two": "pnpm -r --filter @snowtooth-mountain/snowtooth-two start",
+    "start":"pnpm -r run start",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}

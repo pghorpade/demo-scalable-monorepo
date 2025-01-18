@@ -1,3 +1,5 @@
+import {CalculateElevation}from '@snowtooth-mountain/snowtooth-one';
+CalculateElevation(30000)
 export function calculateHikingTime(trailLength, avgSpeed) {
   return Math.round(trailLength / avgSpeed);
 }

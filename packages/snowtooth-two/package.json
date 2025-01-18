@@ -12,6 +12,6 @@
   "license": "ISC",
   "type": "module",
   "dependencies": {
-    "@snowtooth-mountain/snowtooth-one": "workspace:*"
+    "@snowtooth-mountain/snowtooth-one": "../snowtooth-one"
   }
 }

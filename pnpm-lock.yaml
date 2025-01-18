@@ -11,11 +11,11 @@ importers:
   packages/snowtooth-one:
     dependencies:
       '@snowtooth-mountain/snowtooth-two':
-        specifier: workspace:*
+        specifier: ../snowtooth-two
         version: link:../snowtooth-two
 
   packages/snowtooth-two:
     dependencies:
       '@snowtooth-mountain/snowtooth-one':
-        specifier: workspace:*
+        specifier: ../snowtooth-one
         version: link:../snowtooth-one
